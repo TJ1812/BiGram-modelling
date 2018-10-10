@@ -122,7 +122,8 @@ public class BigramProbabilities {
 
 	public static void main(String[] cd) throws IOException {
         if(cd.length != 1) {
-            System.out.println("Improper Arguements");
+            System.out.println("Please enter file name");
+	        System.out.println("Try - 'java BigramProbabilities NLPCorpusTreebank.txt'");
             System.exit(1);
         }
 		BigramProbabilities bp = new BigramProbabilities(
